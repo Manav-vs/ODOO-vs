@@ -1,0 +1,213 @@
+.ddddd{
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        background-image: url("../img/white-pc-plzg245ab7b4lw41.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        padding: 95px 0px;
+        background-size: cover;
+        align-items: center;
+}
+
+.signdivbg{
+    animation:loki 2s linear;
+}
+
+@keyframes loki {
+    0%{
+        transform: translateX(-80%);
+        /* right: 0;
+        top: 0; */
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.alert p{
+    background-color: #d1ecf1;
+    border: 1px solid #a2dae3;
+    color: #09414a;
+    padding: 27px 30px;
+    font-size: 17px;
+    border-radius: 12px;
+}
+
+.l{
+    display: flex;
+    justify-content: start;
+    padding-left: 11px;
+    font-size: 15px;
+    padding-top: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+#password:focus{
+    color: #111827;
+    background-color: #ffffff;
+    border-color: #b8a5b3;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(113, 75, 103, 0.25);
+}
+
+#email:focus{
+    color: #111827;
+    background-color: #ffffff;
+    border-color: #b8a5b3;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(113, 75, 103, 0.25);
+}
+
+.maina a{
+    background-color: #714b67;
+    width:290px;
+    height: 47px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 3px;
+}
+
+.maina{
+    padding-left: 5px;
+    padding-top: 25px;
+}
+
+#email,#password{
+    width: 269px;
+    font-size: 15px;
+    height: 47px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid black;
+    outline: none;
+    padding: 0px 10px;
+    margin-top: 12px;
+}
+
+.signdivbg{
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: white;
+    width: 300px;
+    height: 469px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* section last=============== */
+
+.pagelastsection {
+    background-color: #252733;
+    color: white;
+    position: relative;
+}
+
+.div1le {
+    display: flex;
+    /* padding-right: 91px; */
+}
+
+.lastsectionflex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -35px;
+    padding: 50px 15px;
+}
+
+.titelone {
+    padding-left: 17px;
+}
+
+.titelone ul {
+    padding-left: 40px;
+}
+
+.titelone h1 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.titelone li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.titelone li {
+    padding-bottom: 5px;
+    color: #ADB5BD;
+    font-size: 16px;
+    font-weight: 400;
+    /* display: flex;
+    justify-content: center; */
+    /* text-align: start; */
+}
+
+.titelone li:hover {
+    color: white;
+}
+
+.sjioao {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ADB5BD;
+}
+
+.awdjpo button {
+    background-color: transparent;
+    border: none;
+    color: #ADB5BD;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.div2ri p {
+    width: 550px;
+    color: #ADB5BD;
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+.div2ri p:hover {
+    color: white;
+}
+
+.qwij {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.qwij i {
+    margin-left: 20px;
+    font-size: 25px;
+    color: #ADB5BD;
+}
+
+.qwij i:hover {
+    color: white;
+}
